@@ -12,6 +12,7 @@ public class TestControler {
     private Person person;
     @RequestMapping("/test")
     public String Test(){
+        System.out.println("hello git");
         return "hello spring boot";
     }
     @RequestMapping("/test/name")
