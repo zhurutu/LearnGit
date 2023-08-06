@@ -19,12 +19,13 @@ public class TestControler {
     }
     @RequestMapping("/test/name")
     public String Test2(){
-        ;        return "hello spring boot";
+
+               return "hello spring boot";
     }
     @RequestMapping("/T")
     public String Tes(@RequestBody Person person){
         System.out.println(person);
-        return "hello spring boot";
+        return "hello updata boot";
     }
 
     @RequestMapping("/JWT")
