@@ -13,8 +13,9 @@ public class TestControler {
     @RequestMapping("/test")
     public String Test(){
         System.out.println("hello haha");
-        System.out.println("hello git");
-        System.out.println("git add");
+        System.out.println("hello git da diannao xiugai");
+        System.out.println("da com puter ");
+
         return "hello spring boot";
     }
     @RequestMapping("/test/name")
