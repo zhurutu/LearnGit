@@ -9,6 +9,7 @@ public class MasertContrller {
     public void test(){
         System.out.println("hebing");
         System.out.println("test");
+        System.out.println("marin");
 
     }
 }
